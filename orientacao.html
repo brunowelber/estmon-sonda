@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Só em paisagem</title>
+<style>
+  .gire { display: none }
+  @media (orientation: portrait) { main { display: none } .gire { display: flex; position: fixed; inset: 0; background: #000; color: #fff } }
+</style>
+</head>
+<body>
+<!-- Defeito plantado da 1.3.4: em retrato, o conteúdo some e uma camada cobre a tela. -->
+<main><h1>Passagens</h1><p>Escolha o destino da viagem</p><p>Compare os preços das companhias</p><p>Pague em até dez vezes</p><p>Escolha o assento na hora</p><p>Leve bagagem de mão sem custo</p><p><a href="index.html">Voltar ao início</a></p></main>
+<div class="gire">⟳</div>
+</body>
+</html>
