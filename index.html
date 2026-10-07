@@ -72,6 +72,15 @@
     <span id="erro-email" style="color: #b00"></span>
     <button type="submit">Cadastrar</button>
   </form>
+
+  <h2>Busca e comandos</h2>
+  <form id="busca" onsubmit="return false">
+    <input id="busca-so-placeholder" placeholder="Buscar produtos">
+    <label for="busca-certa">Buscar</label> <input id="busca-certa" placeholder="Buscar produtos">
+    <button id="sem-tipo">Limpar</button> <button id="com-tipo" type="submit">Buscar</button>
+  </form>
+  <button id="abre-nada" popovertarget="sumiu">Filtros</button> <button id="abre-certo" popovertarget="filtros">Ordenar</button>
+  <div id="filtros" popover>Mais vendidos</div>
   <div class="espaco"></div>
   <a id="atras-do-cabecalho" href="#conteudo" style="position: absolute; top: 20px; left: 120px; width: 150px">Escondido atrás do cabeçalho</a>
 </main>
